@@ -267,6 +267,43 @@ footer {
     gap: 10px;
 }
 
+.popup {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    /*background: white;*/
+    padding: 15px;
+    display: none;
+    z-index: 9999;
+    animation: fadeIn 0.8s ease, blink 1.5s infinite;
+  }
+  .popup img {
+    width: 40px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  .popup img:hover {
+    transform: scale(1.1);
+  }
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+
 
 
 

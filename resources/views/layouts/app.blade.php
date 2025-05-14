@@ -111,5 +111,27 @@
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    
+
+    <!-- Floating Social Icons -->
+<div id="social-popup" class="popup">
+  <a href="https://wa.me/yourNumber" target="_blank"><img src="{{ asset('images/whatsapp.png') }}" alt="WhatsApp"></a>
+  <a href="https://instagram.com/yourProfile" target="_blank"><img src="{{ asset('images/insta.png') }}" alt="Instagram"></a>
+  <a href="https://facebook.com/yourPage" target="_blank"><img src="{{ asset('images/fb.png') }}" alt="Facebook"></a>
+  <a href="https://goo.gl/maps/yourMapLink" target="_blank"><img src="{{ asset('images/googlemaps.png') }}" alt="Map"></a>
+</div>
+
+<script>
+  window.onload = function() {
+    setTimeout(function() {
+      document.getElementById("social-popup").style.display = "flex";
+    }, 1000); // Delay in milliseconds (1000ms = 1 second)
+  };
+</script>
+
+
+
+
 </body>
 </html>
