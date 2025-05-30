@@ -178,7 +178,7 @@
 </script>
 
 
-<section class="photo-gallery">
+<section id="gallery" class="photo-gallery">
     <h2>Gallery</h2>
 
     <div class="gallery-grid">

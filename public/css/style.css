@@ -6,6 +6,10 @@ body {
     color: #333;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Navbar styles */
 .site-header {
     background-color: #007BFF;
@@ -303,6 +307,38 @@ footer {
     }
   }
   
+  .custom-dropdown {
+    display: none;
+    list-style: none;
+    padding-left: 35px;
+    margin-top: 10px;
+}
+
+.custom-dropdown li a {
+    display: block;
+    padding: 6px 0;
+    text-decoration: none;
+    color: black;
+    font-family: 'Gilda Display', serif;
+}
+
+.custom-dropdown li a:hover {
+    color: rgb(178, 155, 98);
+}
+
+#facilities {
+    font-family: 'Gilda Display', serif;
+}
+
+.facility-box {
+    background-color: #f9f6f0;
+    transition: transform 0.3s ease;
+}
+
+.facility-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
 
 
 

@@ -20,7 +20,17 @@ class HomeController extends Controller
     {
         return view('huts');
     }
-    
+
+    public function facilities()
+    {
+        return view('facilities');
+    }
+
+    public function explorer()
+    {
+        return view('explorer');
+    }
+
     public function contactus(){
         return view('contactus');
     }
