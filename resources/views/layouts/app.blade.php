@@ -3,7 +3,7 @@
 <head>
 
     <meta charset="UTF-8">
-    <title>@yield('title', 'Yongjee Retreat')</title>
+    <title>@yield('title', 'Yonjee Retreat')</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Custom CSS -->
