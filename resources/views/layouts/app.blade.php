@@ -116,10 +116,10 @@
 
     <!-- Floating Social Icons -->
 <div id="social-popup" class="popup">
-  <a href="https://wa.me/yourNumber" target="_blank"><img src="{{ asset('images/whatsapp.png') }}" alt="WhatsApp"></a>
-  <a href="https://instagram.com/yourProfile" target="_blank"><img src="{{ asset('images/insta.png') }}" alt="Instagram"></a>
-  <a href="https://facebook.com/yourPage" target="_blank"><img src="{{ asset('images/fb.png') }}" alt="Facebook"></a>
-  <a href="https://goo.gl/maps/yourMapLink" target="_blank"><img src="{{ asset('images/googlemaps.png') }}" alt="Map"></a>
+  <a href="https://wa.me/8132803304" target="_blank"><img src="{{ asset('images/whatsapp.png') }}" alt="WhatsApp"></a>
+  <a href="https://www.instagram.com/yonjeeretreat?igsh=MTVrNXBobWwyaWt6Zw%3D%3D&utm_source=qr" target="_blank"><img src="{{ asset('images/insta.png') }}" alt="Instagram"></a>
+  <a href="https://www.facebook.com/yonjeeretreat?mibextid=LQQJ4d" target="_blank"><img src="{{ asset('images/fb.png') }}" alt="Facebook"></a>
+  <a href="https://maps.app.goo.gl/A4WTeRXgPjMyaCMc6?g_st=com.google.maps.preview.copy" target="_blank"><img src="{{ asset('images/googlemaps.png') }}" alt="Map"></a>
 </div>
 
 <script>
