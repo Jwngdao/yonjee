@@ -3,7 +3,7 @@
 <head>
 
     <meta charset="UTF-8">
-    <title>@yield('title', 'Yongjee Retreat')</title>
+    <title>@yield('title', 'Yonjee Retreat')</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Custom CSS -->
@@ -88,15 +88,45 @@
                     <a href="{{ url('/about-us') }}" class="nav-link">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a href="{{ url('/huts') }}" class="nav-link">Huts</a>
+                <a href="#" class="nav-link" onclick="toggleDropdown(event)">Huts </a>
+                <ul id="customDropdown" class="custom-dropdown">
+                    <li><a class="dropdown-item" href="{{ url('/huts#tree-house') }}">Tree House</a></li>
+                    <li><a class="dropdown-item" href="{{ url('/huts#duplex-huts') }}">Duplex Huts</a></li>
+                    <li><a class="dropdown-item" href="{{ url('/huts#cottages') }}">Cottages</a></li>
+                </ul>
                 </li>
+                <script>
+                function toggleDropdown(event) {
+                    event.preventDefault();
+                    const dropdown = document.getElementById("customDropdown");
+                    dropdown.style.display = dropdown.style.display === "block" ? "none" : "block";
+                }
+                </script>
+
+               <li class="nav-item">
+                    <a href="{{ url('/facilities') }}" class="nav-link">Facilities</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="{{ url('/explorer') }}" class="nav-link">Explorer</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#gallery" class="nav-link">Gallery</a>
+                </li>
+
                 <li class="nav-item">
                     <a href="{{ url('/contact-us') }}" class="nav-link">Contact Us</a>
                 </li>
              </ul>
-             <div style="text-align:center; background:rgb(69, 145, 75); color: white; padding: 0px; border-radius: 10px; max-width: 800px; margin: 233px 10px 40px;">
-                <h3 style="margin: 100 100 10;font-family: 'Gilda Display', serif">Reservation</h3>
-                <p style="margin: 0;font-family: 'Gilda Display', serif">📞 <a href="tel:+91 8132803304" style="color: white; text-decoration: underline;">+91 98765 43210</a></p>
+             <div style="position: fixed; bottom: 0; left: 10%; transform: translateX(-50%);
+             text-align: center; background: rgb(69, 145, 75); color: white; 
+             padding: 10px 20px; border-radius: 10px; max-width: 250px; 
+             width: calc(100% - 20px); margin: 0 10px 10px; z-index: 999;">
+                <h3 style="margin: 0 0 5px; font-family: 'Gilda Display', serif;">Reservation</h3>
+                <p style="margin: 0; font-family: 'Gilda Display', serif;">
+                    📞 <a href="tel:+919876543210" style="color: white; text-decoration: underline;">+91 98765 43210</a>
+                </p>
             </div>
 
         </nav>
@@ -130,7 +160,7 @@
   };
 </script>
 
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 
 </body>
