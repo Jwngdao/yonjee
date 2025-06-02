@@ -10,15 +10,15 @@
 
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <div class="hero-slide" style="background-image: url('{{ asset('images/ynj1.jpg') }}');">
+      <div class="hero-slide" style="background-image: url('{{ asset('images/yj1.jpg') }}');">
         <div class="carousel-caption d-none d-md-block">
-          <h1>Welcome to Yongjee Retreat Farm Stay</h1>
+          <h1>Welcome to Yonjee Retreat Farm Stay</h1>
           <p>Relax in our luxury cottages.</p>
         </div>
       </div>
     </div>
     <div class="carousel-item">
-      <div class="hero-slide" style="background-image: url('{{ asset('images/ynj2.jpg') }}');">
+      <div class="hero-slide" style="background-image: url('{{ asset('images/yj2.jpg') }}');">
         <div class="carousel-caption d-none d-md-block">
           <h1>Open Lawn</h1>
           <p>View of Lawn and sitting place of Yonjee Retreat Farmstay</p>
@@ -27,7 +27,7 @@
     </div>
 
     <div class="carousel-item">
-      <div class="hero-slide" style="background-image: url('{{ asset('images/ynj3.jpg') }}');">
+      <div class="hero-slide" style="background-image: url('{{ asset('images/yj3.jpg') }}');">
         <div class="carousel-caption d-none d-md-block">
         <h1>Experience Nature</h1>
         <p>Wake up to the sounds of birds and Mountains.</p>
@@ -77,6 +77,14 @@
           <h1>Night View</h1>
           <p>Enjoy the night with the Nature</p>
         </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="hero-slide" style="background-image: url('{{ asset('images/yjn2.jpeg') }}');">
+       <!-- <div class="carousel-caption d-none d-md-block">
+          <h1>Night View</h1>
+          <p>Enjoy the night with the Nature</p>
+        </div>-->
       </div>
     </div>
 
