@@ -34,4 +34,17 @@ class HomeController extends Controller
     public function contactus(){
         return view('contactus');
     }
+    public function treehouse(){
+        return view('treehouse');
+    }
+    public function duplexhuts(){
+        return view('duplexhuts');
+    }
+    public function cottages(){
+        return view('cottages');
+    }
+    
+    public function booking(){
+        return view('booking');
+    }
 }

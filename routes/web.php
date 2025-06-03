@@ -10,6 +10,10 @@ Route::get('/huts',[HomeController::class,'huts']);
 Route::get('/facilities',[HomeController::class,'facilities']);
 Route::get('/explorer',[HomeController::class,'explorer']);
 Route::get('/contact-us',[HomeController::class,'contactus']);
+Route::get('/tree-house',[HomeController::class,'treehouse']);
+Route::get('/duplex-huts',[HomeController::class,'duplexhuts']);
+Route::get('/cottages',[HomeController::class,'cottages']);
+Route::get('/tree-house',[HomeController::class,'treehouse']);
 Route::get('/book-room', [BookingController::class, 'showForm'])->name('booking.form');
 Route::post('/book-room', [BookingController::class, 'submitForm'])->name('booking.submit');
 
