@@ -3,6 +3,15 @@
 <head>
 
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="description" content="Stay in a luxurious Huts with stunning views at the Yonjee Retreat. Choose from our wide range of huts at one of the best 5 star luxury Farm stays in Shergaon.">
+    <meta name="keywords" content="Shergaon, hotels,Hotels, Hotels in shergaon, Farmstay, farm stay, resort, resorts, Best Stay in Shergaon, Best Farm Stay in Shergaon,Best Farmstay in Shergaon,Farmstay in Shergaon,Farm stay in Shergaon ,Best Homestay in Shergaon,Home Stay in Shergaon,Homestay in Shergaon,Best Hotel in Shergaon,Hotel in Shergaon,Restaurant in Shergaon,Cafe in Shergaon,Massage in Shergaon, Reasonable and Affordable Stay at Shergaon, Accomodation in Shergaon,Stay in Shergaon,">
+    
+    <link rel="icon" href="{{ asset('images/logo.png') }}" type="image/png">
+    <link rel="shortcut icon" href="{{ asset('images/logo.png') }}" type="image/png">
+
     <title>@yield('title', 'Yonjee Retreat')</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -79,20 +88,22 @@
         <!-- Fixed Sidebar -->
         <nav class="sidebar">
             <img class="text-center" src="{{asset('images/logo.png')}}" style="display: block; margin: 0 auto;" width="150" height="160" >
-            <h2 class="text-center" style="font-family: 'Gilda Display', serif;">Yongjee Retreat</h2>
+            <h2 class="text-center" style="font-family: 'Gilda Display', serif;">Yonjee Retreat</h2>
             <ul class="nav flex-column mt-4">
+                <br>
+                <br>
                 <li class="nav-item">
-                    <a href="{{ url('/') }}" class="nav-link">Home</a>
+                    <a href="{{ url('/') }}" class="nav-link">HOME</a>
                 </li>
                 <li class="nav-item">
-                    <a href="{{ url('/about-us') }}" class="nav-link">About Us</a>
+                    <a href="{{ url('/about-us') }}" class="nav-link">ABOUT US</a>
                 </li>
                 <li class="nav-item">
-                <a href="#" class="nav-link" onclick="toggleDropdown(event)">Huts </a>
+                <a href="#" class="nav-link" onclick="toggleDropdown(event)">HUTS </a>
                 <ul id="customDropdown" class="custom-dropdown">
-                    <li><a class="dropdown-item" href="{{ url('/huts#tree-house') }}">Tree House</a></li>
-                    <li><a class="dropdown-item" href="{{ url('/huts#duplex-huts') }}">Duplex Huts</a></li>
-                    <li><a class="dropdown-item" href="{{ url('/huts#cottages') }}">Cottages</a></li>
+                    <li><a class="dropdown-item" href="{{ url('/huts#tree-house') }}">TREE HOUSE</a></li>
+                    <li><a class="dropdown-item" href="{{ url('/huts#duplex-huts') }}">DUPLEX HUTS</a></li>
+                    <li><a class="dropdown-item" href="{{ url('/huts#cottages') }}">COTTAGES</a></li>
                 </ul>
                 </li>
                 <script>
@@ -104,19 +115,19 @@
                 </script>
 
                <li class="nav-item">
-                    <a href="{{ url('/facilities') }}" class="nav-link">Facilities</a>
+                    <a href="{{ url('/facilities') }}" class="nav-link">FACILITIES</a>
                 </li>
 
                 <li class="nav-item">
-                    <a href="{{ url('/explorer') }}" class="nav-link">Explorer</a>
+                    <a href="{{ url('/explorer') }}" class="nav-link">EXPLORER</a>
                 </li>
 
                 <li class="nav-item">
-                    <a href="#gallery" class="nav-link">Gallery</a>
+                    <a href="#gallery" class="nav-link">GALLERY</a>
                 </li>
 
                 <li class="nav-item">
-                    <a href="{{ url('/contact-us') }}" class="nav-link">Contact Us</a>
+                    <a href="{{ url('/contact-us') }}" class="nav-link">CONTACT US</a>
                 </li>
              </ul>
              <div style="position: fixed; bottom: 0; left: 10%; transform: translateX(-50%);

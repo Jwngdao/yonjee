@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Home | Yongjee Retreat')
+@section('title', 'Home | Yonjee Retreat')
 
 @section('content')
 <section class="contact" style="max-width: 600px; margin: 120px 40px auto; padding: 30px; background: #fefefe; border-left: 8px solid #4CAF50; border-radius: 15px; box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); font-family: 'Segoe UI', sans-serif; color: #333;">
